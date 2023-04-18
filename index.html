@@ -4,88 +4,94 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Inline vs Block Elements</title>
+    <style>
+      * {
+        font-family: Roboto, sans-serif;
+        font-size: 14px;
+      }
+      @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+
+      .border-div {
+        border: 1px solid black;
+        padding: 1rem;
+      }
+      .highlight {
+        background-color: #ee3;
+      }
+    </style>
   </head>
   <body>
-    <h1>
-      Now that we have learned all of this amazing elements, how can we
-      distribute them?
-    </h1>
-
-    <h2>
-      Wait, before we learn how to do this guys, we need to learn a little bit
-      of what html semantic & non-semantic elements are!
-    </h2>
-
+    <h1>Inline Elements vs Block Elements</h1>
+    <!-- Intro -->
     <p>
-      Semantic Elements = elements that their name provide context of their
-      usage to both the programmer and the browser
+      Before CSS became the standard of styling html elements within the web,
+      web developers had to rely on out of the box styling provided by HTML.
+      <br />
+      This type of styling is referred to both inline and block elements.
     </p>
+    <!-- Block Elements -->
     <p>
-      Non-Semantic Elements = elements whose names do not provide any context,
-      and they can be used to mark up semantics or to basically group other
-      elements together in your own.
+      A block element occupies the entire horizontal space of its parent element
+      and vertical space equal to the height of its contents, thereby creating a
+      "block". Note: A block-level element always starts on a new line and takes
+      up the full width available (stretches out to the left and right as far as
+      it can).
     </p>
-
+    <!-- Inline Elements -->
     <p>
-      So far we have learned how to use html elements to place content within
-      the browser, you see all of these elements are semantic in nature because
-      their name describe their meaning
+      An inline element occupy the space space bounded by the tags defining the
+      element, instead of breaking the flow of the content.
     </p>
 
-    <section id="semntic-elements">
-      <h2>Most common semantic layout elements</h2>
+    <!-- Examples -->
+    <h2>Lets look at an example</h2>
+    <h4>Inline</h4>
+    <p>
+      Let's look at the following example which demonstrates an inline element:
+    </p>
+    <div class="border-div">
+      The following span is an <span class="highlight">inline element</span>;
+      its background has been colored to display both the beginning and end of
+      the inline element's influence.
+    </div>
+    <p>
+      In this example, the div block-level element contains some text. Within
+      that text is a span element, which is an inline element. Because the span
+      element is inline, the paragraph correctly renders as a single, unbroken
+      text flow, like this:
+    </p>
+    <hr />
+    <h2>Lets look at an example</h2>
+    <h4>Block</h4>
+    <p>
+      Now let's change that <span> into a block-level element, such as:</span>
+    </p>
+    <div class="border-div">
+      The following paragraph is a
+      <p class="highlight">block-level element;</p>
+      its background has been colored to display both the beginning and end of
+      the block-level element's influence.
+    </div>
 
-      <p>Header element</p>
-      <header>
-        Specifies the header/encabezado de cualquier document o seccion
-      </header>
-
-      <hr />
-      <p>nav element</p>
-      <nav></nav>
-      <p>
-        Syntax: Define los links de navegacion de la apgina, es decir cualquier
-        subRuta que contenga tu pagina/app puede ser aprovechado este elemento
-        para ayudar a los usuarios a navegar de una manera correcta dentro de la
-        pagina.
-      </p>
-
-      <hr />
-      <p>Main Element</p>
-      <main>main element</main>
-      <p>Syntax: Especifcar el contenido principal[MAIN] de tu documento</p>
-
-      <hr />
-      <p>Section element</p>
-      <section>section element</section>
-      <p>Syntax: define una seccion en particular de tu pagina</p>
-
-      <hr />
-      <p>Article Element</p>
-      <article>
-        <h1>Example of article title</h1>
-        <p>body of article</p>
-      </article>
-      <p>
-        Syntax: Defines independent, self-contained content. Basically you can
-        add anything you can within the article element tag and it will be
-        treated according to its meaning.
-      </p>
-
-      <hr />
-      <p>Footer Element</p>
-      <footer>This is the structure of a footer tag</footer>
-      <p>
-        Colocamos cualquier tipi de informacion que queremos darle visibilidad
-        al pie de la pagina.
-      </p>
-    </section>
-    <section id="non-semantic">
-      <h2>Most Common NON-Semantic Element to provide layout:</h2>
-
-      <h2>div = divider || div = divisor || div = container</h2>
-      <div>this is a div container</div>
-    </section>
+    <h3>Important</h3>
+    <p>
+      You can change the visual presentation of an element using the CSS display
+      property. For example, by changing the value of display from "inline" to
+      "block", you can tell the browser to render the inline element in a block
+      box rather than an inline box, and vice versa.
+    </p>
+    <p>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements#list_of_inline_elements"
+        >List of Inline Elements</a
+      >
+    </p>
+    <p>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#elements"
+        >List of Block Elements</a
+      >
+    </p>
   </body>
 </html>
