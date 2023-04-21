@@ -1,0 +1,13 @@
+Básicos de CSS
+
+Verdadero o Falso: CSS es un lenguaje de programación. ¿Por qué?
+    Falso. CSS es un lenguaje de hoja de estilos utilizado para describir la presentación de un documento escrito en HTML. Un lenguaje de programación tiene como características básicas el tener la capacidad para “tomar decisiones” o ejecutar un proceso u otro en función de las circunstancias (por ejemplo dependiendo del botón que pulse el usuario), así como el ser capaz de repetir procesos repetidas veces hasta que se cumpla una condición. CSS no es un lenguaje que permita cumplir estas funciones, por tanto no es un lenguaje de programación aunque se use junto a lenguajes de programación. 
+
+¿Para qué se utiliza CSS?
+CSS es un lenguaje que maneja el diseño y presentación de las páginas web, es decir, cómo lucen cuando un usuario las visita. Funciona junto con el lenguaje HTML que se encarga del contenido básico de las páginas.
+
+¿Cómo puedes agregar estilos a tu proyecto HTML?
+Hay 3 maneras:
+1. En línea: agregar style como un atributo en un elemento HTML
+2. Interno: agregar en la secciónd de head el elemenot de style
+3. Externo: crear un archivo CSS separado y enlazar a él desde su documento HTML usando el elemento “link”.
