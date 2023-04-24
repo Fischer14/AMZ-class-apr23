@@ -1,0 +1,68 @@
+/* <!-- 1. Selectores de tipo --> */
+
+/* p{
+    color: navy;
+}
+
+h4{
+    color: darkred;
+}
+
+span {
+    color: yellow;
+}
+
+.blue-box {
+background-color: blue;
+}
+
+.yellow-box {
+background-color: yellow;
+} */
+
+/* 2. Selectores de clase y multiples selectores  */
+/* * {
+    color: green;
+}
+
+body{
+    background-color: #00d1ae;
+}
+
+.menu {
+    width: 400px;
+    height: 50px;
+    background-color: green;
+}
+
+.content {
+    width: 400px;
+    height: 200px;
+    background-color: red;
+}
+
+.important {
+    font-weight: bold;
+}
+
+#cover-box {
+    color: navy;
+} */
+
+/* 3. Pseudoselectores 
+
+/* .ejemplo1 li:nth-child(even){
+    background-color: yellow;
+}
+.ejemplo1 li:nth-child(odd){
+    background-color: green;
+}
+.ejemplo1 li:first-child {
+    background-color: red;
+}
+.ejemplo1 li:last-child {
+    background-color: blue;
+}
+.button:hover {
+color: purple;
+} */
