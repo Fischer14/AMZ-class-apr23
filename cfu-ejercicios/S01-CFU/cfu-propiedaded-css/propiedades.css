@@ -1,0 +1,43 @@
+/* <!-- Estilo de fuente y texto - propiedades de font family, size, style, weight--> */
+
+/* h1{
+    font-family: Helvetica, sans-serif;
+}
+p{
+    font-size: 18px;
+    font-style: italic;
+}
+
+.visit {
+    font-weight: bold;
+} */
+
+/* <!-- Estilo de fuente y texto - propiedades de transformación de texto, decoración, alineación, sangría, altura de línea, espaciado entre letras y espaciado entre palabras (text transform, decoration, align, indent, line height, letter spacing y word-spacing) --> */
+
+h1{
+    text-transform: uppercase;
+}
+
+p{
+    text-decoration: line-through;
+}
+
+div{
+    text-align: center;
+}
+ ul{
+    text-indent: 50px;
+ }
+
+ol{
+    line-height: 2.5em;
+}
+
+li{
+    letter-spacing: 2px;
+}
+
+a{
+    word-spacing: 5px;
+}
+
