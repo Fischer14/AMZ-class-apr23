@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: #e9e6e6;
+    padding: 10px 0px 20px 0px;
+    box-sizing: border-box;
+}
+
+.title {
+    background-color: #78f0b7;
+    color: white;
+    margin: 10px 10px 20px 40px;
+    border: 2px solid #178c55;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.content {
+    background-color: #24ccda;
+    color: white;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
