@@ -1,0 +1,15 @@
+¿Qué son las variables y por qué las usamos en JavaScript?
+El objetivo principal de las variables es almacenar información. Las variables pueden ser vistas como almacenamientos nombrados (etiquetados) que sostienen algunos valores. El propósito detrás de nombrarlas es, en realidad, poder hacer referencia a ellas más tarde.
+
+¿Cuál es la sintaxis para crear un comentario de una sola línea en JavaScript?
+Para comentar algo que cabe en una línea, usamos "//"
+
+¿Cuáles son las diferentes formas de crear una variable en JavaScript?
+Para declarar o definir una variable podemos utilizar las palabras clave let o const. En versiones antiguas de JavaScript, encontrarías la palabra clave var, que se utiliza para declarar variables.
+Las reglas para nombrar variables son fáciles:
+
+1. Los nombres pueden contener letras (mayúsculas y minúsculas), números y los símbolos `_` y `$`.
+2. El primer carácter del nombre no puede ser un número.
+
+¿Para qué usamos la función console.log()?
+La función llamada console.log() sirve para crear una salida. Muestra un mensaje en la consola que contiene un texto descriptivo para decirte lo que está sucediendo, o el valor de una variable. Esto ayudará a darte visibilidad de lo que está sucediendo mientras se ejecuta tu código.
