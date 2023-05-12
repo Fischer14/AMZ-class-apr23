@@ -32,7 +32,7 @@
 //     console.log("I'm not suer what language that is.")
 // }
 
-// const name = prompt("Which character of Game of Thornes is your favorite?")
+// const name = prompt("Which character of Game of Thrones is your favorite?")
 
 // let house = "";
 // switch (name) {
@@ -81,3 +81,4 @@ for (let i = 0; i <= 20; i++) {
       console.log(i + " is odd");
     }
   }
+  
