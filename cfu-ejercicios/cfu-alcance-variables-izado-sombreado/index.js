@@ -24,4 +24,4 @@ console.log(x);
 console.log(x);
 
 // Escribe un párrafo explicando lo que has aprendido de los pasos anteriores.
-
+/* Este ejemplo expone bien el concepto de alcnace de variables. Las variables globales son accesibles desde cualquier lugar dentro del script donde se creo. En cambio, las variables de alcance de bloque solo pueden ser accedidas desde el bloque en la que se decalran.*/
