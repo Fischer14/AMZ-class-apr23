@@ -17,7 +17,7 @@ const animals = ref([])
   <input type="checkbox" id="orangutan" value="orangutan" v-model="animals"/>
   <label for="orangutan">Orangutan</label>
   <input type="checkbox" id="monkey" value="monkey" v-model="animals"/>
-  <label for="monkey">Monkety</label> 
+  <label for="monkey">Monkey</label> 
   <input type="checkbox" id="shark" value="shark" v-model="animals"/> 
   <label for="shark">Shark</label>
   <p>{{ animals }}</p>
